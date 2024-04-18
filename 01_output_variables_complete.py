@@ -32,10 +32,21 @@ print("13") # not a number - it is '1' '3'
 
 # print("He said "Hi"") #SyntaxError: invalid syntax
 print('He said "Hi"')
+print("Don't")
 
 # VARIABLES ##################################################################
 
 # 1. create a variable
+name = "Mr Roberts"  # creates a label to point to the data "Mr Roberts"
+my_name = "Mr Roberts"
+myName = "Mr Roberts"
+
+# 7A is using snake_case for variable names.
+# lower case, no spaces, no special characters. use _ instead of space.
+capital_of_australia = "Canberra"
+name_of_pet = "Snoopy"
+
+
 
 
 # 2. create a string variable
