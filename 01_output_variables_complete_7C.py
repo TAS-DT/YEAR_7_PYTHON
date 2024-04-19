@@ -3,50 +3,34 @@
 # 01 Output and Variables
 # OUTPUT#######################################################################
 # 1. printing text
-
-print("Hello World!")
+print("Hello World")
 
 # errors
+# write("Hello World") # made a typo: NameError: name 'write' is not defined = change to print.
+# print('Hello World")  # SyntaxError: EOL while scanning string literal = change quote ' -> "
+# print("Hello World" # SyntaxError: unexpected EOF while parsing = add )
 
-# mismatch quotation marks.
-# print('hello World") # error SyntaxError: EOL while scanning string literal
-
-# wrong function name
-# write("Hello World!") # NameError: name 'write' is not defined
-
-# no closing bracket
-# print("Hello WOrld"  #SyntaxError: unexpected EOF while parsing
 
 # 2. combining text
-
-print("Harry" + "Potter")  # no space between
+print("Harry Potter")
+print("Harry" + "Potter") # no space
 print("Harry " + "Potter")
-print("Harry", "Potter")
+print("Harry", "Potter") # adds a space
+
 
 # 3. printing numbers
-
-print("13") # not a number - it is '1' '3' 
+print("13")  # is not a number - it is '1' '3'
+print(13) # is a number
+print("13" + "11") 
+print(13 + 11) # numbers
 
 
 # 4. printing quotation marks
 
-# print("He said "Hi"") #SyntaxError: invalid syntax
-print('He said "Hi"')
-print("Don't")
 
 # VARIABLES ##################################################################
 
 # 1. create a variable
-name = "Mr Roberts"  # creates a label to point to the data "Mr Roberts"
-my_name = "Mr Roberts"
-myName = "Mr Roberts"
-
-# 7A is using snake_case for variable names.
-# lower case, no spaces, no special characters. use _ instead of space.
-capital_of_australia = "Canberra"
-name_of_pet = "Snoopy"
-
-
 
 
 # 2. create a string variable
