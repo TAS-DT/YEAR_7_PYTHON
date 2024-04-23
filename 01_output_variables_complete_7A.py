@@ -66,9 +66,32 @@ need_hat = False # capital F
 # OUTPUT VARIABLES ############################################################
 
 # 1. Print a string
+print("Mr Roberts")
+print(name)
 
+print("1: Hello", name)
+print("2: Hello " + name)
+
+print(f"3: Hello {name}")  # when using variables use print(f"") - format vars
+print(f"Hello {name} you are {my_age} years old.")  
+print(f"Your iphone is {iphone_width} cm wide.")
+print() # prints a blank line
+print(f"\tLook at this.\nThis is on a new line!\n{name}") # \t tab \n new line
 
 # 2. Print a number
+temp_in_c = 23.5
+pots_of_honey = 4
+hours_of_chores = 2
+hours_homework_done = 3
+
+# error 
+#print("It is " + temp_in_c + "c today") #TypeError: can only concatenate str (not "float") to str
+
+print("It is " + str(temp_in_c) + "c today")
+
+print(f"It is {temp_in_c}c today")
+# if i forget the f
+print("It is {temp_in_c}c today")
 
 
 # 3. print the result of a calculation
