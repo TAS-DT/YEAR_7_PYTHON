@@ -25,7 +25,8 @@ print("Harry", "Potter")
 
 # 3. printing numbers
 
-print("13") # not a number - it is '1' '3' 
+print("13") # not a number - it is '1' '3' - strings - cannot do math
+print(13) # this is a number - integer - can do math
 
 
 # 4. printing quotation marks
@@ -46,16 +47,20 @@ myName = "Mr Roberts"
 capital_of_australia = "Canberra"
 name_of_pet = "Snoopy"
 
-
-
-
 # 2. create a string variable
-
+fav_food = "Baked Bean Milkshake"
+fav_my_little_pony = "Stinky Pie"
+second_fav_my_little_pony = "Scootaloo"
 
 # 3. create a numeric variable
-
+my_age = 103  # integer - how old i feel.
+iphone_width = 7.8 # float  5.2324234 1.3 3.14159
 
 # 4. create a boolean variable
+is_it_raining = True # capital T
+need_hat = False # capital F
+
+
 
 
 # OUTPUT VARIABLES ############################################################
